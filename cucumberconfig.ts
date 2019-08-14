@@ -16,6 +16,8 @@ export let config: Config = {
     // They may include glob patterns.
     specs: ['../features/demo.feature'],
     cucumberOpts: {
+        //format:'json:./cucumberreports.json',
+        format:'json:./reports.json',
         require: [
         './stepDefinations/*.js']
 }

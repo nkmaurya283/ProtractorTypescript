@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate calculator app",
+    "line": 1,
+    "id": "i-am-going-to-validate-calculator-app",
+    "tags": [],
+    "uri": "features\\demo.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionaliy-testing",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Calculator add functionaliy testing",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I will navigate to calc site",
+            "match": {
+              "location": "stepDefinations\\step.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1017000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I add x numberss \"3\" and \"5\"",
+            "match": {
+              "location": "stepDefinations\\step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The output displayed shoudld be \"8\"",
+            "match": {
+              "location": "stepDefinations\\step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-am-going-to-validate-calculator-app;calculator-add-functionaliy-testing",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Calculator add functionaliy testing",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I will navigate to calc site",
+            "match": {
+              "location": "stepDefinations\\step.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I add x numberss \"3\" and \"5\"",
+            "match": {
+              "location": "stepDefinations\\step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The output displayed shoudld be \"8\"",
+            "match": {
+              "location": "stepDefinations\\step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2036000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
