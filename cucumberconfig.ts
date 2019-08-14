@@ -6,7 +6,7 @@ export let config: Config = {
     framework:'custom',
     frameworkPath:require.resolve('protractor-cucumber-framework'),
   
-    // Capabilities to be passed to the webdriver instance.
+    // Capabilities to be passed to the webdriver instance..
     capabilities: {
       browserName: 'chrome'
     },
